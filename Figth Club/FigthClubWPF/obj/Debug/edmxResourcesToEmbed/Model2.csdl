@@ -1,0 +1,50 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Schema Namespace="FigthClubModel1" Alias="Self" annotation:UseStrongSpatialTypes="false" xmlns:annotation="http://schemas.microsoft.com/ado/2009/02/edm/annotation" xmlns:customannotation="http://schemas.microsoft.com/ado/2013/11/edm/customannotation" xmlns="http://schemas.microsoft.com/ado/2009/11/edm">
+  <EntityType Name="Charecter">
+    <Key>
+      <PropertyRef Name="Код_персонажа" />
+    </Key>
+    <Property Name="Код_персонажа" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="Код_пользователя" Type="Int32" Nullable="false" />
+    <Property Name="Имя_персонажа" Type="String" MaxLength="35" FixedLength="false" Unicode="true" Nullable="false" />
+    <Property Name="Сила" Type="Int32" Nullable="false" />
+    <Property Name="Выносливость" Type="Int32" Nullable="false" />
+    <Property Name="Здоровье" Type="Int32" Nullable="false" />
+    <Property Name="Особые_умения" Type="String" MaxLength="50" FixedLength="false" Unicode="true" />
+    <NavigationProperty Name="Users" Relationship="Self.FK_Charecter_Users" FromRole="Charecter" ToRole="Users" />
+  </EntityType>
+  <EntityType Name="Users">
+    <Key>
+      <PropertyRef Name="Код_пользователя" />
+    </Key>
+    <Property Name="Код_пользователя" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="Электронная_почта" Type="String" MaxLength="100" FixedLength="false" Unicode="true" Nullable="false" />
+    <Property Name="Логин" Type="String" MaxLength="50" FixedLength="false" Unicode="true" Nullable="false" />
+    <Property Name="Пароль" Type="String" MaxLength="50" FixedLength="false" Unicode="true" Nullable="false" />
+    <Property Name="Никнейм" Type="String" MaxLength="30" FixedLength="false" Unicode="true" Nullable="false" />
+    <Property Name="Роль" Type="String" MaxLength="50" FixedLength="false" Unicode="true" Nullable="false" />
+    <NavigationProperty Name="Charecter" Relationship="Self.FK_Charecter_Users" FromRole="Users" ToRole="Charecter" />
+  </EntityType>
+  <Association Name="FK_Charecter_Users">
+    <End Role="Users" Type="Self.Users" Multiplicity="1">
+      <OnDelete Action="Cascade" />
+    </End>
+    <End Role="Charecter" Type="Self.Charecter" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="Users">
+        <PropertyRef Name="Код_пользователя" />
+      </Principal>
+      <Dependent Role="Charecter">
+        <PropertyRef Name="Код_пользователя" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <EntityContainer Name="FigthClubEntities1" annotation:LazyLoadingEnabled="true">
+    <EntitySet Name="Charecter" EntityType="Self.Charecter" />
+    <EntitySet Name="Users" EntityType="Self.Users" />
+    <AssociationSet Name="FK_Charecter_Users" Association="Self.FK_Charecter_Users">
+      <End Role="Users" EntitySet="Users" />
+      <End Role="Charecter" EntitySet="Charecter" />
+    </AssociationSet>
+  </EntityContainer>
+</Schema>

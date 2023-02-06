@@ -1,0 +1,30 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Mapping Space="C-S" xmlns="http://schemas.microsoft.com/ado/2009/11/mapping/cs">
+  <EntityContainerMapping StorageEntityContainer="Хранилище FigthClubModel1Container" CdmEntityContainer="FigthClubEntities1">
+    <EntitySetMapping Name="Charecter">
+      <EntityTypeMapping TypeName="FigthClubModel1.Charecter">
+        <MappingFragment StoreEntitySet="Charecter">
+          <ScalarProperty Name="Код_персонажа" ColumnName="Код_персонажа" />
+          <ScalarProperty Name="Код_пользователя" ColumnName="Код_пользователя" />
+          <ScalarProperty Name="Имя_персонажа" ColumnName="Имя_персонажа" />
+          <ScalarProperty Name="Сила" ColumnName="Сила" />
+          <ScalarProperty Name="Выносливость" ColumnName="Выносливость" />
+          <ScalarProperty Name="Здоровье" ColumnName="Здоровье" />
+          <ScalarProperty Name="Особые_умения" ColumnName="Особые_умения" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="Users">
+      <EntityTypeMapping TypeName="FigthClubModel1.Users">
+        <MappingFragment StoreEntitySet="Users">
+          <ScalarProperty Name="Код_пользователя" ColumnName="Код_пользователя" />
+          <ScalarProperty Name="Электронная_почта" ColumnName="Электронная_почта" />
+          <ScalarProperty Name="Логин" ColumnName="Логин" />
+          <ScalarProperty Name="Пароль" ColumnName="Пароль" />
+          <ScalarProperty Name="Никнейм" ColumnName="Никнейм" />
+          <ScalarProperty Name="Роль" ColumnName="Роль" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+  </EntityContainerMapping>
+</Mapping>

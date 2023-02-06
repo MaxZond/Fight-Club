@@ -1,0 +1,183 @@
+﻿<Page x:Class="FigthClub_LabEZ.Ring"
+      xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+      xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+      xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" 
+      xmlns:d="http://schemas.microsoft.com/expression/blend/2008" 
+      xmlns:local="clr-namespace:FigthClub_LabEZ"
+      mc:Ignorable="d"
+      Title="Ring" Height="590" Width="1313" Loaded="Page_Loaded" IsVisibleChanged="Page_IsVisibleChanged">
+
+    <Grid x:Name="MainGrid" Height="590" Width="1313">
+        <Grid.RowDefinitions>
+            <RowDefinition Height="0*"/>
+            <RowDefinition Height="87.182"/>
+            <RowDefinition Height="6.818"/>
+            <RowDefinition Height="45"/>
+            <RowDefinition Height="136.333"/>
+            <RowDefinition Height="74.167"/>
+            <RowDefinition Height="200"/>
+            <RowDefinition Height="0"/>
+            <RowDefinition/>
+            <RowDefinition Height="0*"/>
+        </Grid.RowDefinitions>
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition Width="0*"/>
+            <ColumnDefinition Width="350"/>
+            <ColumnDefinition Width="252"/>
+            <ColumnDefinition Width="100"/>
+            <ColumnDefinition Width="258"/>
+            <ColumnDefinition Width="165"/>
+            <ColumnDefinition Width="185"/>
+            <ColumnDefinition Width="0*"/>
+        </Grid.ColumnDefinitions>
+        <Image Source="/Photos/1614677236_13-p-fon-boks-18.jpg" Stretch="Fill" Grid.ColumnSpan="8" Grid.RowSpan="9" Width="1313" Height="590" Margin="2,0,-5,0"/>
+        <Image x:Name="CrusRing" Visibility="Hidden" Source="/Photos/Crus.png" Grid.ColumnSpan="2" Margin="-6,14,29,150" Grid.Row="3" Grid.RowSpan="4"/>
+        <Image x:Name="CrusRing2" Visibility="Hidden" Source="/Photos/Crus.png" Grid.ColumnSpan="3" Margin="44,34,-21,130" Grid.Row="3" Grid.RowSpan="4" Grid.Column="5"/>
+        <Image x:Name="WalterRing" Visibility="Hidden" Source="/Photos/WalterWhite.png" Grid.ColumnSpan="2" Margin="80,10,80,10" Grid.Row="4" Width="190" Height="190" Grid.RowSpan="2"/>
+        <Button x:Name="UppercotButton" Content="" Background="Black" BorderBrush="Black" Foreground="White" Margin="10,10,25,100" Opacity="0.75" Grid.Column="5" RenderTransformOrigin="0.686,1.079" Cursor="Hand" Grid.Row="6" Click="UppercotButton_Click">
+            <Button.RenderTransform>
+                <TransformGroup>
+                    <ScaleTransform ScaleX="1" ScaleY="1"/>
+                    <SkewTransform/>
+                    <RotateTransform/>
+                    <TranslateTransform/>
+                </TransformGroup>
+            </Button.RenderTransform>
+            <Button.Template>
+                <ControlTemplate  TargetType="{x:Type Button}">
+                    <Grid>
+                        <Ellipse x:Name="Ell3" Fill="White" Stroke="White" OpacityMask="White"/>
+                        <Label Content="{TemplateBinding Content}" HorizontalAlignment="Center"
+                               VerticalAlignment="Center"/>
+                        <Image Source="/Photos/Uppercot.png"/>
+                    </Grid>
+                    <ControlTemplate.Triggers>
+                        <Trigger Property="IsMouseOver" Value="True">
+                            <Setter Property="Fill" TargetName="Ell3" Value="Black"/>
+                        </Trigger>
+                    </ControlTemplate.Triggers>
+                </ControlTemplate>
+            </Button.Template>
+        </Button>
+        <Button x:Name="PunchButton" Content="" Background="Black" BorderBrush="Black" Foreground="White" Margin="15,100,40,10" Opacity="0" Grid.Column="6" Cursor="Hand" RenderTransformOrigin="0.5,0.5" Grid.Row="6">
+            <Button.RenderTransform>
+                <TransformGroup>
+                    <ScaleTransform ScaleX="-1" ScaleY="1"/>
+                    <SkewTransform/>
+                    <RotateTransform/>
+                    <TranslateTransform/>
+                </TransformGroup>
+            </Button.RenderTransform>
+            <Button.Template>
+                <ControlTemplate  TargetType="{x:Type Button}">
+                    <Grid>
+                        <Ellipse x:Name="Ell2" Fill="White" Stroke="White" OpacityMask="White"/>
+                        <Label Content="{TemplateBinding Content}" HorizontalAlignment="Center"
+                            VerticalAlignment="Center"/>
+                        <Image Source="/Photos/PunchPic.png" Margin="6,0,4,1"/>
+                    </Grid>
+                    <ControlTemplate.Triggers>
+                        <Trigger Property="IsMouseOver" Value="True">
+                            <Setter Property="Fill" TargetName="Ell2" Value="Black"/>
+                        </Trigger>
+                    </ControlTemplate.Triggers>
+                </ControlTemplate>
+            </Button.Template>
+        </Button>
+        <Button x:Name="BlockButton" Command="Help" Background="Black" BorderBrush="Black" Foreground="White" Margin="210,10,10,100" Opacity="0.75" Grid.Column="1" Cursor="Hand" Grid.Row="6" >
+            <Button.Template>
+                <ControlTemplate  TargetType="{x:Type Button}">
+                    <Grid>
+                        <Ellipse x:Name="Ell1" Fill="White" Stroke="White" OpacityMask="White"/>
+                        <Label Content="{TemplateBinding Content}" HorizontalAlignment="Center"
+                            VerticalAlignment="Center"/>
+                        <Image Source="/Photos/BlockPic.png" Height="77"/>
+                    </Grid>
+                    <ControlTemplate.Triggers>
+                        <Trigger Property="IsMouseOver" Value="True">
+                            <Setter Property="Fill" TargetName="Ell1" Value="Black"/>
+                        </Trigger>
+                    </ControlTemplate.Triggers>
+                </ControlTemplate>
+            </Button.Template>
+        </Button>
+        
+        <ProgressBar x:Name="StaminaBar1" Grid.ColumnSpan="2" HorizontalAlignment="Left" Height="24" Margin="10,0,0,0" VerticalAlignment="Center" Width="340" Grid.Row="3" Foreground="#FFE6FF00" BorderBrush="White" Background="White"/>
+        <ProgressBar x:Name="StaminaBar2" HorizontalAlignment="Left" Height="24" VerticalAlignment="Center" Width="340" Grid.Column="5" RenderTransformOrigin="0.5,0.5" Grid.ColumnSpan="2" Grid.Row="3" BorderBrush="White" Foreground="#FFE6FF00" Background="White">
+            <ProgressBar.RenderTransform>
+                <TransformGroup>
+                    <ScaleTransform ScaleX="-1"/>
+                    <SkewTransform/>
+                    <RotateTransform/>
+                    <TranslateTransform/>
+                </TransformGroup>
+            </ProgressBar.RenderTransform>
+        </ProgressBar>
+        <ProgressBar x:Name="HealthBar1" HorizontalAlignment="Left" Height="45" Margin="10,39,0,0" VerticalAlignment="Top" Width="592" Grid.Row="1" Grid.Column="1" Grid.ColumnSpan="2" Background="White" BorderBrush="White" Foreground="#FF1FFF00" ValueChanged="HealthBar1_ValueChanged"/>
+        <ProgressBar x:Name="HealthBar2" HorizontalAlignment="Left" Height="45" Margin="0,39,0,0" VerticalAlignment="Top" Width="598" Grid.Row="1" Grid.Column="4" Grid.ColumnSpan="3" RenderTransformOrigin="0.5,0.5" Background="White" Foreground="#FF1FFF00" BorderBrush="White" ValueChanged="HealthBar2_ValueChanged">
+            <ProgressBar.RenderTransform>
+                <TransformGroup>
+                    <ScaleTransform ScaleX="-1"/>
+                    <SkewTransform/>
+                    <RotateTransform/>
+                    <TranslateTransform/>
+                </TransformGroup>
+            </ProgressBar.RenderTransform>
+        </ProgressBar>
+        <Image x:Name="WalterRing2" Margin="98,44,40,2" Visibility="Hidden" Source="/Photos/WalterWhite.png" Stretch="Fill" Grid.ColumnSpan="2" Grid.RowSpan="3" Grid.Row="3" Height="210" RenderTransformOrigin="0.5,0.5" Grid.Column="5">
+            <Image.RenderTransform>
+                <TransformGroup>
+                    <ScaleTransform ScaleX="-1"/>
+                    <SkewTransform/>
+                    <RotateTransform/>
+                    <TranslateTransform/>
+                </TransformGroup>
+            </Image.RenderTransform>
+        </Image>
+        <Image x:Name="Boxer1" Margin="60,44,60,2" Visibility="Hidden" Source="/Photos/Boxer.png" Stretch="Fill" Width="230" Height="210" Grid.ColumnSpan="2" Grid.RowSpan="3" Grid.Row="3"/>
+        <Image x:Name="BoxerRing2" Margin="84,40,38,6" Visibility="Hidden" Source="/Photos/Boxer.png" Stretch="Fill" Height="210" Grid.ColumnSpan="2" Grid.RowSpan="3" Grid.Row="3" Grid.Column="5" RenderTransformOrigin="0.5,0.5">
+            <Image.RenderTransform>
+                <TransformGroup>
+                    <ScaleTransform ScaleX="-1"/>
+                    <SkewTransform/>
+                    <RotateTransform/>
+                    <TranslateTransform/>
+                </TransformGroup>
+            </Image.RenderTransform>
+        </Image>
+        <Image x:Name="Baby1" Margin="60,44,60,2" Visibility="Hidden" Source="/Photos/BabyFigther.png" Stretch="Fill" Width="230" Height="210" Grid.ColumnSpan="2" Grid.RowSpan="3" Grid.Row="3"/>
+        <Image x:Name="BabyRing2" Margin="66,5,20,196" Visibility="Hidden" Source="/Photos/BabyFigther.png" Stretch="Fill" Height="210" Grid.ColumnSpan="2" Grid.RowSpan="3" Grid.Row="4" RenderTransformOrigin="0.5,0.5" Grid.Column="5">
+            <Image.RenderTransform>
+                <TransformGroup>
+                    <ScaleTransform ScaleX="-1"/>
+                    <SkewTransform/>
+                    <RotateTransform/>
+                    <TranslateTransform/>
+                </TransformGroup>
+            </Image.RenderTransform>
+        </Image>
+        <Image x:Name="Smirnov1" Margin="16,62,29,2" Visibility="Hidden" Source="/Photos/Smirnov.png" Stretch="Fill" Grid.ColumnSpan="2" Grid.RowSpan="5" Grid.Row="1"/>
+        <Image x:Name="SmirnovRing2" Margin="44,21,20,162" Visibility="Hidden" Source="/Photos/Smirnov.png" Stretch="Fill" Grid.ColumnSpan="2" Grid.RowSpan="6" Grid.Row="1" RenderTransformOrigin="0.5,0.5" Grid.Column="5">
+            <Image.RenderTransform>
+                <TransformGroup>
+                    <ScaleTransform ScaleX="-1"/>
+                    <SkewTransform/>
+                    <RotateTransform/>
+                    <TranslateTransform/>
+                </TransformGroup>
+            </Image.RenderTransform>
+        </Image>
+        <TextBlock x:Name="StrangeTB1" Grid.Column="2" HorizontalAlignment="Left" Margin="54,10,0,0" Grid.Row="3" TextWrapping="Wrap" Text="" VerticalAlignment="Top" Visibility="Hidden"/>
+        <TextBlock x:Name="StrangeTB2" Grid.Column="4" HorizontalAlignment="Left" Margin="156,10,0,0" Grid.Row="3" TextWrapping="Wrap" Text="" VerticalAlignment="Top" Visibility="Hidden"/>
+        <TextBlock x:Name="NameTB1" Grid.ColumnSpan="2" HorizontalAlignment="Left" Margin="10,1,0,0" Grid.Row="4" TextWrapping="Wrap" Text="" VerticalAlignment="Top" Foreground="White" Width="87" FontStyle="Italic"/>
+        <TextBlock x:Name="NameTB2" HorizontalAlignment="Center" Margin="0,9,0,0" Grid.Row="4" TextWrapping="Wrap" Text="" VerticalAlignment="Top" Foreground="White" Width="86" FontStyle="Italic" Grid.Column="6"/>
+        <Grid x:Name="GridAfterFigth" Grid.Column="2" Grid.Row="4" Grid.ColumnSpan="3" Margin="148,104,154,146" Grid.RowSpan="3" Visibility="Hidden">
+            <Button x:Name="ResumButton" Click="ResumButton_Click" Content="Повторить" HorizontalAlignment="Center" Margin="0,10,0,0" VerticalAlignment="Top" Height="41" Width="162" Background="White" BorderBrush="White" FontSize="20"/>
+            <Button x:Name="MenuButton" Content="Меню" Click="Button_Click" HorizontalAlignment="Center" Margin="0,91,0,0" VerticalAlignment="Top" Height="41" Width="162" BorderBrush="White" Background="White" FontSize="20"/>
+        </Grid>
+        <TextBlock x:Name="HealtTB1" Grid.Column="1" HorizontalAlignment="Left" Margin="306,50,0,0" Grid.Row="1" TextWrapping="Wrap" Text="" VerticalAlignment="Top" FontSize="17" Grid.ColumnSpan="2"/>
+        <TextBlock x:Name="HealtTB2" Grid.Column="4" HorizontalAlignment="Left" Margin="229,50,0,0" Grid.Row="1" TextWrapping="Wrap" Text="" VerticalAlignment="Top" FontSize="17" Grid.ColumnSpan="2"/>
+        <TextBlock x:Name="StaminaTB1" Grid.ColumnSpan="2" HorizontalAlignment="Left" Margin="158,0,0,0" Grid.Row="3" TextWrapping="Wrap" Text="" VerticalAlignment="Center"/>
+        <TextBlock x:Name="StaminaTB2" Grid.Column="5" HorizontalAlignment="Left" Margin="115,0,0,0" Grid.Row="3" TextWrapping="Wrap" Text="" VerticalAlignment="Center"/>
+    </Grid>
+</Page>

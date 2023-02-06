@@ -1,0 +1,141 @@
+C:\Users\user.UIT\Desktop\Перепелкин\3 курс\Figth Club\FigthClubWPF\bin\Debug\FigthClubWPF.exe.config
+C:\Users\user.UIT\Desktop\Перепелкин\3 курс\Figth Club\FigthClubWPF\bin\Debug\FigthClubWPF.exe
+C:\Users\user.UIT\Desktop\Перепелкин\3 курс\Figth Club\FigthClubWPF\bin\Debug\FigthClubWPF.pdb
+C:\Users\user.UIT\Desktop\Перепелкин\3 курс\Figth Club\FigthClubWPF\obj\Debug\FigthClubWPF.csproj.AssemblyReference.cache
+C:\Users\user.UIT\Desktop\Перепелкин\3 курс\Figth Club\FigthClubWPF\obj\Debug\MainWindow.baml
+C:\Users\user.UIT\Desktop\Перепелкин\3 курс\Figth Club\FigthClubWPF\obj\Debug\MainWindow.g.cs
+C:\Users\user.UIT\Desktop\Перепелкин\3 курс\Figth Club\FigthClubWPF\obj\Debug\App.g.cs
+C:\Users\user.UIT\Desktop\Перепелкин\3 курс\Figth Club\FigthClubWPF\obj\Debug\FigthClubWPF_MarkupCompile.cache
+C:\Users\user.UIT\Desktop\Перепелкин\3 курс\Figth Club\FigthClubWPF\obj\Debug\FigthClubWPF_MarkupCompile.lref
+C:\Users\user.UIT\Desktop\Перепелкин\3 курс\Figth Club\FigthClubWPF\obj\Debug\FigthClubWPF.g.resources
+C:\Users\user.UIT\Desktop\Перепелкин\3 курс\Figth Club\FigthClubWPF\obj\Debug\FigthClubWPF.Properties.Resources.resources
+C:\Users\user.UIT\Desktop\Перепелкин\3 курс\Figth Club\FigthClubWPF\obj\Debug\FigthClubWPF.csproj.GenerateResource.cache
+C:\Users\user.UIT\Desktop\Перепелкин\3 курс\Figth Club\FigthClubWPF\obj\Debug\FigthClubWPF.csproj.CoreCompileInputs.cache
+C:\Users\user.UIT\Desktop\Перепелкин\3 курс\Figth Club\FigthClubWPF\obj\Debug\FigthClubWPF.exe
+C:\Users\user.UIT\Desktop\Перепелкин\3 курс\Figth Club\FigthClubWPF\obj\Debug\FigthClubWPF.pdb
+C:\Users\user.UIT\Desktop\Перепелкин\3 курс\Figth Club\FigthClubWPF\bin\Debug\EntityFramework.dll
+C:\Users\user.UIT\Desktop\Перепелкин\3 курс\Figth Club\FigthClubWPF\bin\Debug\EntityFramework.xml
+C:\Users\user.UIT\Desktop\Перепелкин\3 курс\Figth Club\FigthClubWPF\bin\Debug\ru\EntityFramework.resources.dll
+C:\Users\user.UIT\Desktop\Перепелкин\3 курс\Figth Club\FigthClubWPF\obj\Debug\FigthClubWPF_Content.g.cs
+C:\Users\user.UIT\Desktop\Перепелкин\3 курс\Figth Club\FigthClubWPF\obj\Debug\FigthClubWPF.csproj.CopyComplete
+C:\Users\user\Desktop\Figth Club\FigthClubWPF\obj\Debug\MainWindow.baml
+C:\Users\user\Desktop\Figth Club\FigthClubWPF\obj\Debug\MainWindow.g.cs
+C:\Users\user\Desktop\Figth Club\FigthClubWPF\obj\Debug\App.g.cs
+C:\Users\user\Desktop\Figth Club\FigthClubWPF\obj\Debug\FigthClubWPF_Content.g.cs
+C:\Users\user\Desktop\Figth Club\FigthClubWPF\obj\Debug\FigthClubWPF_MarkupCompile.cache
+C:\Users\user\Desktop\Figth Club\FigthClubWPF\obj\Debug\FigthClubWPF_MarkupCompile.lref
+C:\Users\user\Desktop\Figth Club\FigthClubWPF\obj\Debug\FigthClubWPF.exe
+C:\Users\user\Desktop\Figth Club\FigthClubWPF\obj\Debug\FigthClubWPF.pdb
+C:\Users\user\Desktop\Figth Club\FigthClubWPF\bin\Debug\FigthClubWPF.exe.config
+C:\Users\user\Desktop\Figth Club\FigthClubWPF\bin\Debug\FigthClubWPF.exe
+C:\Users\user\Desktop\Figth Club\FigthClubWPF\bin\Debug\FigthClubWPF.pdb
+C:\Users\user\Desktop\Figth Club\FigthClubWPF\bin\Debug\EntityFramework.dll
+C:\Users\user\Desktop\Figth Club\FigthClubWPF\bin\Debug\EntityFramework.xml
+C:\Users\user\Desktop\Figth Club\FigthClubWPF\bin\Debug\ru\EntityFramework.resources.dll
+C:\Users\user\Desktop\Figth Club\FigthClubWPF\obj\Debug\FigthClubWPF.g.resources
+C:\Users\user\Desktop\Figth Club\FigthClubWPF\obj\Debug\FigthClubWPF.Properties.Resources.resources
+C:\Users\user\Desktop\Figth Club\FigthClubWPF\obj\Debug\FigthClubWPF.csproj.GenerateResource.cache
+C:\Users\user\Desktop\Figth Club\FigthClubWPF\obj\Debug\FigthClubWPF.csproj.CoreCompileInputs.cache
+C:\Users\user\Desktop\Figth Club\FigthClubWPF\obj\Debug\FigthClubWPF.csproj.CopyComplete
+C:\Users\user\Desktop\Figth Club\FigthClubWPF\obj\Debug\Pages\LogInPage.g.cs
+C:\Users\user\Desktop\Figth Club\FigthClubWPF\obj\Debug\Pages\MenuPage.g.cs
+C:\Users\user\Desktop\Figth Club\FigthClubWPF\obj\Debug\Pages\Register.g.cs
+C:\Users\user\Desktop\Figth Club\FigthClubWPF\obj\Debug\Pages\Ring.g.cs
+C:\Users\user\Desktop\Figth Club\FigthClubWPF\obj\Debug\Pages\LogInPage.baml
+C:\Users\user\Desktop\Figth Club\FigthClubWPF\obj\Debug\Pages\MenuPage.baml
+C:\Users\user\Desktop\Figth Club\FigthClubWPF\obj\Debug\Pages\Register.baml
+C:\Users\user\Desktop\Figth Club\FigthClubWPF\obj\Debug\Pages\Ring.baml
+C:\Users\user\Desktop\Figth Club\FigthClubWPF\obj\Debug\FigthClubWPF.csproj.AssemblyReference.cache
+D:\Лабораторные\Емелина\Figth Club\FigthClubWPF\bin\Debug\FigthClubWPF.exe.config
+D:\Лабораторные\Емелина\Figth Club\FigthClubWPF\bin\Debug\FigthClubWPF.exe
+D:\Лабораторные\Емелина\Figth Club\FigthClubWPF\bin\Debug\FigthClubWPF.pdb
+D:\Лабораторные\Емелина\Figth Club\FigthClubWPF\bin\Debug\EntityFramework.dll
+D:\Лабораторные\Емелина\Figth Club\FigthClubWPF\bin\Debug\EntityFramework.xml
+D:\Лабораторные\Емелина\Figth Club\FigthClubWPF\bin\Debug\ru\EntityFramework.resources.dll
+D:\Лабораторные\Емелина\Figth Club\FigthClubWPF\obj\Debug\FigthClubWPF.csproj.AssemblyReference.cache
+D:\Лабораторные\Емелина\Figth Club\FigthClubWPF\obj\Debug\FigthClubWPF.csproj.SuggestedBindingRedirects.cache
+D:\Лабораторные\Емелина\Figth Club\FigthClubWPF\obj\Debug\MainWindow.baml
+D:\Лабораторные\Емелина\Figth Club\FigthClubWPF\obj\Debug\Pages\LogInPage.g.cs
+D:\Лабораторные\Емелина\Figth Club\FigthClubWPF\obj\Debug\MainWindow.g.cs
+D:\Лабораторные\Емелина\Figth Club\FigthClubWPF\obj\Debug\Pages\MenuPage.g.cs
+D:\Лабораторные\Емелина\Figth Club\FigthClubWPF\obj\Debug\Pages\Register.g.cs
+D:\Лабораторные\Емелина\Figth Club\FigthClubWPF\obj\Debug\Pages\Ring.g.cs
+D:\Лабораторные\Емелина\Figth Club\FigthClubWPF\obj\Debug\App.g.cs
+D:\Лабораторные\Емелина\Figth Club\FigthClubWPF\obj\Debug\FigthClubWPF_Content.g.cs
+D:\Лабораторные\Емелина\Figth Club\FigthClubWPF\obj\Debug\FigthClubWPF_MarkupCompile.cache
+D:\Лабораторные\Емелина\Figth Club\FigthClubWPF\obj\Debug\FigthClubWPF_MarkupCompile.lref
+D:\Лабораторные\Емелина\Figth Club\FigthClubWPF\obj\Debug\Pages\LogInPage.baml
+D:\Лабораторные\Емелина\Figth Club\FigthClubWPF\obj\Debug\Pages\MenuPage.baml
+D:\Лабораторные\Емелина\Figth Club\FigthClubWPF\obj\Debug\Pages\Register.baml
+D:\Лабораторные\Емелина\Figth Club\FigthClubWPF\obj\Debug\Pages\Ring.baml
+D:\Лабораторные\Емелина\Figth Club\FigthClubWPF\obj\Debug\FigthClubWPF.g.resources
+D:\Лабораторные\Емелина\Figth Club\FigthClubWPF\obj\Debug\FigthClubWPF.Properties.Resources.resources
+D:\Лабораторные\Емелина\Figth Club\FigthClubWPF\obj\Debug\FigthClubWPF.csproj.GenerateResource.cache
+D:\Лабораторные\Емелина\Figth Club\FigthClubWPF\obj\Debug\FigthClubWPF.csproj.CoreCompileInputs.cache
+D:\Лабораторные\Емелина\Figth Club\FigthClubWPF\obj\Debug\FigthClubWPF.csproj.CopyComplete
+D:\Лабораторные\Емелина\Figth Club\FigthClubWPF\obj\Debug\FigthClubWPF.exe
+D:\Лабораторные\Емелина\Figth Club\FigthClubWPF\obj\Debug\FigthClubWPF.pdb
+C:\Users\Артем\Downloads\Figth Club\FigthClubWPF\bin\Debug\FigthClubWPF.exe.config
+C:\Users\Артем\Downloads\Figth Club\FigthClubWPF\bin\Debug\FigthClubWPF.exe
+C:\Users\Артем\Downloads\Figth Club\FigthClubWPF\bin\Debug\FigthClubWPF.pdb
+C:\Users\Артем\Downloads\Figth Club\FigthClubWPF\bin\Debug\EntityFramework.dll
+C:\Users\Артем\Downloads\Figth Club\FigthClubWPF\bin\Debug\EntityFramework.xml
+C:\Users\Артем\Downloads\Figth Club\FigthClubWPF\bin\Debug\ru\EntityFramework.resources.dll
+C:\Users\Артем\Downloads\Figth Club\FigthClubWPF\obj\Debug\MainWindow.baml
+C:\Users\Артем\Downloads\Figth Club\FigthClubWPF\obj\Debug\Pages\LogInPage.g.cs
+C:\Users\Артем\Downloads\Figth Club\FigthClubWPF\obj\Debug\MainWindow.g.cs
+C:\Users\Артем\Downloads\Figth Club\FigthClubWPF\obj\Debug\Pages\MenuPage.g.cs
+C:\Users\Артем\Downloads\Figth Club\FigthClubWPF\obj\Debug\Pages\Register.g.cs
+C:\Users\Артем\Downloads\Figth Club\FigthClubWPF\obj\Debug\Pages\Ring.g.cs
+C:\Users\Артем\Downloads\Figth Club\FigthClubWPF\obj\Debug\App.g.cs
+C:\Users\Артем\Downloads\Figth Club\FigthClubWPF\obj\Debug\FigthClubWPF_Content.g.cs
+C:\Users\Артем\Downloads\Figth Club\FigthClubWPF\obj\Debug\FigthClubWPF_MarkupCompile.cache
+C:\Users\Артем\Downloads\Figth Club\FigthClubWPF\obj\Debug\FigthClubWPF_MarkupCompile.lref
+C:\Users\Артем\Downloads\Figth Club\FigthClubWPF\obj\Debug\Pages\LogInPage.baml
+C:\Users\Артем\Downloads\Figth Club\FigthClubWPF\obj\Debug\Pages\MenuPage.baml
+C:\Users\Артем\Downloads\Figth Club\FigthClubWPF\obj\Debug\Pages\Register.baml
+C:\Users\Артем\Downloads\Figth Club\FigthClubWPF\obj\Debug\Pages\Ring.baml
+C:\Users\Артем\Downloads\Figth Club\FigthClubWPF\obj\Debug\FigthClubWPF.g.resources
+C:\Users\Артем\Downloads\Figth Club\FigthClubWPF\obj\Debug\FigthClubWPF.Properties.Resources.resources
+C:\Users\Артем\Downloads\Figth Club\FigthClubWPF\obj\Debug\FigthClubWPF.csproj.GenerateResource.cache
+C:\Users\Артем\Downloads\Figth Club\FigthClubWPF\obj\Debug\FigthClubWPF.csproj.CoreCompileInputs.cache
+C:\Users\Артем\Downloads\Figth Club\FigthClubWPF\obj\Debug\FigthClubWPF.csproj.CopyComplete
+C:\Users\Артем\Downloads\Figth Club\FigthClubWPF\obj\Debug\FigthClubWPF.exe
+C:\Users\Артем\Downloads\Figth Club\FigthClubWPF\obj\Debug\FigthClubWPF.pdb
+C:\Users\Артем\Downloads\Figth Club\FigthClubWPF\obj\Debug\FigthClubWPF.csproj.AssemblyReference.cache
+C:\Users\user.UIT\Desktop\Перепелкин\3 курс\Figth Club\FigthClubWPF\obj\Debug\Pages\LogInPage.g.cs
+C:\Users\user.UIT\Desktop\Перепелкин\3 курс\Figth Club\FigthClubWPF\obj\Debug\Pages\MenuPage.g.cs
+C:\Users\user.UIT\Desktop\Перепелкин\3 курс\Figth Club\FigthClubWPF\obj\Debug\Pages\Register.g.cs
+C:\Users\user.UIT\Desktop\Перепелкин\3 курс\Figth Club\FigthClubWPF\obj\Debug\Pages\Ring.g.cs
+C:\Users\user.UIT\Desktop\Перепелкин\3 курс\Figth Club\FigthClubWPF\obj\Debug\Pages\LogInPage.baml
+C:\Users\user.UIT\Desktop\Перепелкин\3 курс\Figth Club\FigthClubWPF\obj\Debug\Pages\MenuPage.baml
+C:\Users\user.UIT\Desktop\Перепелкин\3 курс\Figth Club\FigthClubWPF\obj\Debug\Pages\Register.baml
+C:\Users\user.UIT\Desktop\Перепелкин\3 курс\Figth Club\FigthClubWPF\obj\Debug\Pages\Ring.baml
+C:\Users\user.UIT\Desktop\Figth Club\FigthClubWPF\bin\Debug\FigthClubWPF.exe.config
+C:\Users\user.UIT\Desktop\Figth Club\FigthClubWPF\bin\Debug\FigthClubWPF.exe
+C:\Users\user.UIT\Desktop\Figth Club\FigthClubWPF\bin\Debug\FigthClubWPF.pdb
+C:\Users\user.UIT\Desktop\Figth Club\FigthClubWPF\bin\Debug\EntityFramework.dll
+C:\Users\user.UIT\Desktop\Figth Club\FigthClubWPF\bin\Debug\EntityFramework.xml
+C:\Users\user.UIT\Desktop\Figth Club\FigthClubWPF\bin\Debug\ru\EntityFramework.resources.dll
+C:\Users\user.UIT\Desktop\Figth Club\FigthClubWPF\obj\Debug\FigthClubWPF.csproj.AssemblyReference.cache
+C:\Users\user.UIT\Desktop\Figth Club\FigthClubWPF\obj\Debug\MainWindow.baml
+C:\Users\user.UIT\Desktop\Figth Club\FigthClubWPF\obj\Debug\Pages\LogInPage.g.cs
+C:\Users\user.UIT\Desktop\Figth Club\FigthClubWPF\obj\Debug\MainWindow.g.cs
+C:\Users\user.UIT\Desktop\Figth Club\FigthClubWPF\obj\Debug\Pages\MenuPage.g.cs
+C:\Users\user.UIT\Desktop\Figth Club\FigthClubWPF\obj\Debug\Pages\Register.g.cs
+C:\Users\user.UIT\Desktop\Figth Club\FigthClubWPF\obj\Debug\Pages\Ring.g.cs
+C:\Users\user.UIT\Desktop\Figth Club\FigthClubWPF\obj\Debug\App.g.cs
+C:\Users\user.UIT\Desktop\Figth Club\FigthClubWPF\obj\Debug\FigthClubWPF_Content.g.cs
+C:\Users\user.UIT\Desktop\Figth Club\FigthClubWPF\obj\Debug\FigthClubWPF_MarkupCompile.cache
+C:\Users\user.UIT\Desktop\Figth Club\FigthClubWPF\obj\Debug\FigthClubWPF_MarkupCompile.lref
+C:\Users\user.UIT\Desktop\Figth Club\FigthClubWPF\obj\Debug\Pages\LogInPage.baml
+C:\Users\user.UIT\Desktop\Figth Club\FigthClubWPF\obj\Debug\Pages\MenuPage.baml
+C:\Users\user.UIT\Desktop\Figth Club\FigthClubWPF\obj\Debug\Pages\Register.baml
+C:\Users\user.UIT\Desktop\Figth Club\FigthClubWPF\obj\Debug\Pages\Ring.baml
+C:\Users\user.UIT\Desktop\Figth Club\FigthClubWPF\obj\Debug\FigthClubWPF.g.resources
+C:\Users\user.UIT\Desktop\Figth Club\FigthClubWPF\obj\Debug\FigthClubWPF.Properties.Resources.resources
+C:\Users\user.UIT\Desktop\Figth Club\FigthClubWPF\obj\Debug\FigthClubWPF.csproj.GenerateResource.cache
+C:\Users\user.UIT\Desktop\Figth Club\FigthClubWPF\obj\Debug\FigthClubWPF.csproj.CoreCompileInputs.cache
+C:\Users\user.UIT\Desktop\Figth Club\FigthClubWPF\obj\Debug\FigthClubWPF.csproj.CopyComplete
+C:\Users\user.UIT\Desktop\Figth Club\FigthClubWPF\obj\Debug\FigthClubWPF.exe
+C:\Users\user.UIT\Desktop\Figth Club\FigthClubWPF\obj\Debug\FigthClubWPF.pdb
